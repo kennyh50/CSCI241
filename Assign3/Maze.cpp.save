@@ -1,0 +1,83 @@
+#include <fstream>
+#include "Maze.h"
+#include <iostream>
+using namespace std;
+
+void Maze::readMaze(const string& fileName)
+{
+ifstream inFile;
+
+inFile.open(fileName);
+	if(! inFile)
+	{
+	cout << "Error opening file";
+	exit(1);
+	}
+
+	for(int row = 0; row < height; row++)
+	{
+		for(int col = 0; col < width; col++)
+		{
+			inFile >>  lines[row][col];
+
+			if(lines[row][col] == START)
+			{
+			MazeSquare[row][col]= START;
+			StartPos.yPos = row;
+			StartPos.xPos = col;
+			}
+
+			if(lines[row][col] == END)
+			{
+			MazeSquare[row][col] = START;
+			endPos.yPos = row;
+			endPos.xPos = col;
+			}
+
+			if(lines[row][col] == WALL)
+			{
+			MazeSquare[row][col] = WALL;
+			}
+
+			if(lines[row][col]  == SPACE)
+			{
+			MazeSquare[row][col] == SPACE;
+			}
+		}
+	}
+
+inFile.close();
+}
+
+void Maze::printMaze() const
+{
+	for(int row = 0; row < 25; row++)
+	{
+		for(int col = 0; col < 25; col++)
+		{
+		cout << MazeSquare[row][col];
+		}
+	}
+	cout << '\n';
+}
+
+void Maze::clearPath()
+{
+	for(int row = 0; row < 25; row++)
+	{
+		for(int col  = 0; col < 25; col++)
+		{
+		MazeArray[row][col] =  false;
+		}
+	}
+}
+
+bool Maze::readAndCheckPath(const string& fileName)
+{
+ifstream inFile;
+clearPath();
+
+
+}
+
+
