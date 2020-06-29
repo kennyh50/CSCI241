@@ -1,8 +1,6 @@
 /*********************************************************************
    PROGRAM:    CSCI 241 Assignment 6
    PROGRAMMER: Kenneth Harris
-   LOGON ID:   z1733721
-   DUE DATE:   due date of assignment
 
    FUNCTION:   This program tests the functionality of the Queue
                template class.
