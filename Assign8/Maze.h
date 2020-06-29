@@ -6,8 +6,6 @@
 //*****************************************************************
 // FILE:      Maze.h
 // AUTHOR:    Kenneth Harris
-// LOGON ID:  z1733721
-// DUE DATE:  11/28/2018
 //
 // PURPOSE:   Contains the declaration for the Maze class.
 //*****************************************************************
