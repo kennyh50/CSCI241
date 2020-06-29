@@ -1,8 +1,6 @@
 /*********************************************************************
    PROGRAM:    CSCI 241 Assignment 5
    PROGRAMMER: Kenneth Harris
-   LOGON ID:   z1733721
-   DUE DATE:   10/30/2018
 
    FUNCTION:   This program tests the functionality of the NIUString
                class.
