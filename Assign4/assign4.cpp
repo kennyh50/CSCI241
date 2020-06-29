@@ -1,8 +1,6 @@
 /*********************************************************************
    PROGRAM:    CSCI 241 assign4.cpp
    PROGRAMMER: Kenneth Harris
-   LOGON ID:   z1733721
-   DUE DATE:   10/23/18
 
    FUNCTION:   This program tests the functionality of the Complex
                class.
