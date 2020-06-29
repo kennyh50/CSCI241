@@ -1,9 +1,6 @@
 //*****************************************************************
    // FILE:      assign2.cpp
-   // AUTHOR:    Kenneth Harris
-   // LOGON ID:  z1733721
-   // DUE DATE:  10/2/2018
-   // 
+   // AUTHOR:    Kenneth Harris 
    // PURPOSE:   This contains the main function for my assignment.
    //*****************************************************************
 
