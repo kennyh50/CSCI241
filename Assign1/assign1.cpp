@@ -2,11 +2,6 @@
 CSCI 241 - Assignment 1 - Fall 2018
 
 Progammer: Kenneth Harris
-Z-ID: z1733721
-Section: 1
-TA: Ashli Fain, Manohar Sai Jasti
-Date Due: September 18, 2018
-
 Purpose: This  program counts the number of times the 
 	words in an input text file occur. 
 ************************************************************/ 
