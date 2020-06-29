@@ -1,8 +1,6 @@
 /*********************************************************************
    PROGRAM:    CSCI 241 Assignment 7
    PROGRAMMER: Kenneth Harris
-   LOGON ID:   Z1733721
-   DUE DATE:   11/20/18
 
    FUNCTION:   This program tests the functionality of the Stack
                template class.
